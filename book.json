@@ -1,0 +1,35 @@
+{
+  "title": "2018.07.13周会分享",
+  "description": "Markdown语法介绍及简单使用分享",
+  "author":"yawen.tan",
+  "language": "zh-hans",
+  "links" : {
+    "sidebar" : {
+        "首页" : "http://www.httpds.com"
+    }
+  },
+  "plugins": [
+     "-search",
+     "github",
+     "local-video",
+     "donate",
+     "chart"
+
+  ],
+  "pluginsConfig": {
+    "github": {
+            "url": "https://github.com/iyw/markdown"
+        },
+     "donate": {
+        "wechat": "/images/wechat.jpeg",
+        "alipay": "/images/alipay.jpeg",
+        "title": "",
+        "button": "赏",
+        "alipayText": "支付宝打赏",
+        "wechatText": "微信打赏"
+    },
+    "chart": {
+            "type": "c3"
+        }
+  }
+}
