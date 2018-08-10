@@ -13,7 +13,8 @@
      "github",
      "local-video",
      "donate",
-     "chart"
+     "chart",
+     "github-buttons"
 
   ],
   "pluginsConfig": {
@@ -30,6 +31,22 @@
     },
     "chart": {
             "type": "c3"
+    },
+    "github-buttons": {
+      "buttons": [
+        {
+          "user": "iyw",
+          "repo": "markdown",
+          "type": "star",
+          "size": "large"
+        }, 
+        {
+          "user": "iyw",
+          "type": "follow",
+          "width": "230",
+          "count": false
         }
+      ]
+    }
   }
 }
